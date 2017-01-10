@@ -6,7 +6,7 @@
     "node": "6.9.1",
     "npm": "3.x"
   },
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "debug": "node-debug --hidden node_modules _mocha --watch",
     "debug-ide": "./bin/debug-ide",
@@ -51,6 +51,7 @@
     "react-dom": "^15.3.0",
     "react-redux": "^4.4.5",
     "react-router": "^2.8.1",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "webpack": "^1.14.0"
   }
 }
